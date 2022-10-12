@@ -1,3 +1,3 @@
 # Heart-Stars
-A night Sky of beautiful beating Hearts.
-I created this Project with CSS Animations.
+A night sky of beautiful beating hearts.
+I created this Project with CSS animations.

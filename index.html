@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,21 +15,21 @@
       border-radius: 50%;
       animation-iteration-count: infinite;
     }
-  
+
     .star-1 {
       margin-top: 1%;
       margin-left: 60%;
       animation-duration: 1s;
       animation-name: twinkle;
     }
-  
+
     .star-2 {
       margin-top: 10%;
       margin-left: 55%;
       animation-duration: 1s;
       animation-name: twinkle;
     }
-  
+
     .star-3 {
       margin-bottom: 1%;
       margin-left: 50%;
@@ -56,7 +57,7 @@
       animation-duration: 1s;
       animation-name: twinkle;
     }
-  
+
     #sky {
       position: fixed;
       padding: 0;
@@ -67,6 +68,7 @@
       height: 100%;
       background: linear-gradient(black, black, #000099, #66c2ff, #ffcccc);
     }
+
     /*----- Beating Hearts Animation -----*/
     .heart-1 {
       margin-top: 5%;
@@ -156,11 +158,12 @@
         opacity: 0.5;
       }
     }
-  
+
     @keyframes beat {
       0% {
         transform: scale(1) rotate(-45deg);
       }
+
       50% {
         transform: scale(0.6) rotate(-45deg);
       }
@@ -169,26 +172,29 @@
     .heart {
       animation: heart 7s linear infinite;
     }
-  
+
     @keyframes heart {
       0% {
         transform: translateY(0);
         opacity: 0;
       }
+
       50% {
         opacity: 1;
       }
+
       70% {
         opacity: 1;
       }
+
       100% {
         transform: translateY(-80vh);
         opacity: 0;
       }
     }
-
   </style>
 </head>
+
 <body>
   <div id="sky"></div>
   <div class="star-1 stars"></div>
@@ -229,4 +235,5 @@
   <div class="star-3 stars"></div>
   <div class="star-4 stars"></div>
 </body>
+
 </html>
